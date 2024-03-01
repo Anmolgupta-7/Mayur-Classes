@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayur Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-serif text-slate-700">
+    <!-- nav bar -->
+    <div class="container mx-auto  overflow-hidden transition-all duration-500 h-20  ease-in-out  navcontainer ">
+        <nav class="flex items-center justify-between space-x-3 h-20 py-4 px-4">
+            <!-- logo -->
+            <div class="logo flex items-center space-x-3"><img class="h-14"
+                    src="/assets/noun-peacock-feather-410150.png" alt="">
+                <h1
+                    class=" text-xl md:text-3xl cursor-pointer  font-extrabold uppercase bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">
+                    Mayur Classes</h1>
+            </div>
+            <p class=" sm:text-lg transition-all duration-500 md:text-xl font-bold">RADHE RADHE</p>
+            <!-- nav list -->
+            <div class="menu flex justify-center items-center">
+                <ul class=" hidden md:flex text-lg space-x-3 font-semibold text-slate-700">
+                    <li
+                        class="hover:border-b-2 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">
+                        <a href="#" class="hover:text-fuchsia-700">Home</a>
+                    </li>
+                    <li
+                        class="hover:border-b-2 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">
+                        <a href="#" class="hover:text-fuchsia-700">Batches</a>
+                    </li>
+                    <li
+                        class="hover:border-b-2 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">
+                        <a href="#" class="hover:text-fuchsia-700">About</a>
+                    </li>
+                    <li
+                        class="hover:border-b-2 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">
+                        <a href="#" class="hover:text-fuchsia-700">Contact us</a>
+                    </li>
+                </ul>
+                <img src="/assets/menu-svgrepo-com.svg" class=" hamburger h-10 md:hidden" alt="">
+                <img src="/assets/close-svgrepo-com.svg"
+                    class=" hidden transition-all duration-500 close_hamburger h-10 md:hidden" alt="">
+            </div>
+        </nav>
+        <!-- toggled menu -->
+        <div class="toggledmenu flex flex-col space-y-1 font-bold text-xl mt-10 p-3 md:hidden">
+            <div class=" flex justify-center items-center  ">
+                <a href="#home"
+                    class=" tgmenuli hover:border-b-2 hover:text-fuchsia-700 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">Home</a>
+            </div>
+            <div class=" flex justify-center items-center  ">
+                <a href="#batches"
+                    class=" tgmenuli hover:border-b-2 hover:text-fuchsia-700 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">Batches</a>
+            </div>
+            <div class=" flex justify-center items-center  ">
+                <a href="#about"
+                    class=" tgmenuli hover:border-b-2 hover:text-fuchsia-700 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">About</a>
+            </div>
+            <div class=" flex justify-center items-center  ">
+                <a href="#contact"
+                    class=" tgmenuli hover:border-b-2 hover:text-fuchsia-700 hover:border-b-fuchsia-700 transition-all duration-100 ease-in-out p-[2px]">Contact
+                    us</a>
+            </div>
+        </div>
+    </div>
+    <!-- Home section -->
+    <section id="home"
+        class="  text-slate-700 p-2 md:p-10 mt-10 flex flex-col-reverse gap-4 md:grid md:grid-cols-2 md:gap-3 ">
+        <div class="leftdiv flex items-center justify-center ">
+            <div class="textwraper">
+                <div class="h1">
+                    <h1 class="text-4xl font-semibold">Grow Your</h1>
+                </div>
+                <div class="h1">
+                    <h1 class=" text-5xl md:text-6xl font-bold mt-5"><span
+                            class="text-6xl font-serif font-bold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">Math</span>
+                        skills</h1>
+                </div>
+                <div class="h1">
+                    <h1 class=" text-5xl md:text-6xl font-bold mt-5">With <span
+                            class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">Mayur</span>
+                    </h1>
+                </div>
+                <div class="h1">
+                    <h1 class=" text-5xl md:text-6xl font-bold mt-5">Classes</h1>
+                </div>
+            </div>
+        </div>
+        <div class="rightdiv flex space-x-3 md:space-x-8">
+            <div
+                class="hero_card font-extrabold h-56 w-24 bg-slate-100 hover:scale-110 transition-all md:h-96 md:w-36 rounded-xl flex justify-center items-center text-4xl md:text-8xl drop-shadow-2xl">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">G</span>
+            </div>
+            <div
+                class="hero_card font-extrabold h-56 w-24 bg-slate-100 hover:scale-110 transition-all md:h-96 md:w-36 rounded-xl flex justify-center items-center text-4xl md:text-8xl drop-shadow-2xl mt-16">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">R</span>
+            </div>
+            <div
+                class="hero_card font-extrabold h-56 w-24 bg-slate-100 hover:scale-110 transition-all md:h-96 md:w-36 rounded-xl flex justify-center items-center text-4xl md:text-8xl drop-shadow-2xl">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">O</span>
+            </div>
+            <div
+                class="hero_card font-extrabold h-56 w-24 bg-slate-100 hover:scale-110 transition-all md:h-96 md:w-36 rounded-xl flex justify-center items-center text-4xl md:text-8xl drop-shadow-2xl mt-16">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">W</span>
+            </div>
+            <div
+                class="hero_card bg-slate-100 h-56 w-24 hover:scale-110 transition-all md:h-96 md:w-36 rounded-xl flex justify-center items-center text-4xl md:text-8xl drop-shadow-2xl ">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">T</span>
+            </div>
+            <div
+                class="hero_card font-extrabold h-56 w-24 bg-slate-100 hover:scale-110 transition-all md:h-96 md:w-36 rounded-xl flex justify-center items-center text-4xl md:text-8xl drop-shadow-2xl mt-16">
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">H</span>
+            </div>
+        </div>
+    </section>
+    <!-- Batches section -->
+    <div id="batches" class="batches mt-20 flex flex-col p-4 items-center space-y-6 ">
+        <div class="heading  flex justify-center items-center w-full space-x-8 text-3xl font-bold">
+            <h1><span
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">Special</span>
+                Batches</h1>
+            <img class="h-10" src="/assets/first-icon.png" alt="">
+        </div>
+        <div class="batch1 rounded-xl shadow-xl w-full flex flex-col  overflow-hidden  justify-center p-2">
+            <h1 class="text-xl font-semibold justify-center flex">Standard 8th to 10th</h1>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle h-2 rounded-full bg-red-500 w-2"></div>
+                <h1 class="text-lg font-medium">Conceptual Clarity</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-green-500 w-2"></div>
+                <h1 class="text-lg font-medium">Handwritten Notes</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-yellow-300 w-2"></div>
+                <h1 class="text-lg font-medium">Regular Tests</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-red-500 w-2"></div>
+                <h1 class="text-lg font-medium">Subjective <span
+                        class="bg-clip-text text-transparent bg-fuchsia-700">+</span> Objetive pattern</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-green-500 w-2"></div>
+                <h1 class="text-lg font-medium">CSBE-PSEB</h1>
+            </div>
+            <button
+                class="border readmore1 mx-auto px-2 py-1 rounded-lg text-sm text-fuchsia-700 border-fuchsia-700">Read
+                more</button>
+            <div class="para1 transition-all duration-500 h-0 overflow-hidden ">
+                <p class="text-lg ">Conceptual clarity is fundamental need of any subject and becomes more vital in
+                    Mathematics. Get Handwritten Notes of each and every chapter for quick revisions. One cannot grow
+                    without testing themselves so get weekly and monthly test series to know your weaknesses and
+                    strengths. Maths is common in all competitve exams so be Objective ready. </p>
+            </div>
+        </div>
+        <div class="batch2  rounded-xl shadow-xl w-full flex flex-col  overflow-hidden  justify-center p-2">
+            <h1 class="text-xl font-semibold justify-center flex">Standard 11th and 12th</h1>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle h-2 rounded-full bg-red-500 w-2"></div>
+                <h1 class="text-lg font-medium">MATHS AND ECONOMICS</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle h-2 rounded-full bg-green-500 w-2"></div>
+                <h1 class="text-lg font-medium">Conceptual Clarity</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-yellow-300 w-2"></div>
+                <h1 class="text-lg font-medium">Handwritten Notes</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-red-500 w-2"></div>
+                <h1 class="text-lg font-medium">Regular Tests</h1>
+            </div>
+            <div class="featureswrap flex  items-center space-x-3">
+                <div class="circle circle h-2 rounded-full bg-green-500 w-2"></div>
+                <h1 class="text-lg font-medium">100% Result</h1>
+            </div>
+
+
+            <button
+                class="border readmore2 mx-auto px-2 py-1 rounded-lg text-sm text-fuchsia-700 border-fuchsia-700">Read
+                more</button>
+            <div class="para2 transition-all duration-500 h-0 overflow-hidden ">
+                <p class="text-lg ">Conceptual clarity is fundamental need of any subject and becomes more vital in
+                    Mathematics and Economics. Get Handwritten Notes of each and every chapter for quick revisions. One
+                    cannot grow
+                    without testing themselves so get weekly and monthly test series to know your weaknesses and
+                    strengths.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Know educator section -->
+    <div id="about" class="educator mt-20 flex-col space-y-2  p-4 ">
+        <div class="flex space-x-2 items-center justify-center">
+            <img class="h-8" src="/assets/master-degree.svg" alt="">
+            <h1 class="text-2xl font-semibold">Educator Ritu Garg</h1>
+        </div>
+        <div class="flex justify-center items-center space-x-1">
+            <img src="/assets/certificate-degree-icon.svg" class="h-8" alt="">
+            <h1 class="text-xl">Master's in Mathematics</h1>
+        </div>
+
+        <h1 class="flex items-center justify-center text-xl">Bachelor's in Education</h1>
+        <p class="text-lg font-medium text-center">8 Years of <span
+                class=" bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-700 to-violet-900">Valuable</span>
+            Experience in teaching more like a coach than a teacher</p>
+    </div>
+    <!-- contact us -->
+    <div id="contact" class="contactus mt-20 bg-slate-50 p-4 text-lg font-medium">
+        <h1 class="text-lg font-semibold">Contact us to grab the opprtunity</h1>
+        <h1>Phn. 78374-52472</h1>
+        <h1>#1442 Nai basti st-2 Garg Dresses Bathinda, Punjab</h1>
+    </div>
+
+</body>
+<script src="/js/mayur.js"></script>
+
+</html>
